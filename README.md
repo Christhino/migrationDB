@@ -15,23 +15,9 @@ Installation
 
 To install this library, you need [Composer](http://getcomposer.org).
 
-1. To install `rebasedata/php-client` using Composer, run the following command:
-
-    ```bash
-    php composer.phar require rebasedata/php-client "1.*"
-    ```
-
-2. Then include Composer's autoloader file that helps to autoload the libraries it downloads. To use it, just add the following line to your application:
-
-    ```php
-    <?php
-
-    require 'vendor/autoload.php';
-
-    use RebaseData\Converter\Converter;
-
-    $converter = new Converter();
-    ```
+1.   composer  install 
+2.   php composer.phar require rebasedata/php-client
+3.   ./bin/phpunit 
 
 
 Examples
